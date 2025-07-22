@@ -4,8 +4,8 @@ import axios from "axios";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-  // const url = "http://localhost:4000";
-  const url = "https://fooddel-eta.vercel.app";
+  const url = "http://localhost:4000";
+  // const url = "https://fooddel-eta.vercel.app";
 
   const [token, setToken] = useState(null);
   const [food_list, setFoodList] = useState([]);

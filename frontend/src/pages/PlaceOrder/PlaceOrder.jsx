@@ -74,14 +74,11 @@ const PlaceOrder = () => {
   const totalAmount = getTotalCartAmount() + deliveryFee;
  
 const navigate = useNavigate()
-  useEffect(()=>{
-   if (!token) {
-    navigate('/cart') 
-   }else if(getTotalCartAmount()===0)
-   {
-    navigate('/cart')
-   }
-  },[token])
+  useEffect(() => {
+  if (!token || getTotalCartAmount() === 0) {
+    navigate('/cart');
+  }
+}, [token, getTotalCartAmount, navigate]); 
 
   return (
     <form onSubmit={handlePlaceOrder} className="place-order">
