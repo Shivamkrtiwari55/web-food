@@ -1,4 +1,7 @@
+// Vercel does not support custom Express servers directly. Consider moving backend to a separate deployment platform (e.g., Render, Railway) or refactor to use Vercel serverless functions.
 {
   "version": 2,
-  "builds": [{ "src": "api/**/*.js", "use": "@vercel/node" }]
+  "builds": [
+    { "src": "api/**/*.js", "use": "@vercel/node" }
+  ]
 }
