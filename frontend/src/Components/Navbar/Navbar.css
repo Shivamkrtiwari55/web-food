@@ -81,9 +81,10 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  gap: 4px; /* reduced from 10px to 4px */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
 .nav-profile-dropdown li {
   display: flex;
   align-items: center;

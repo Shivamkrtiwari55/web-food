@@ -9,8 +9,12 @@ const Footer = () => {
         <div className="footer-content-left">
           <img src={assets.logo} alt="Logo" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto expedita repellendus, neque qui eligendi nesciunt dicta, commodi impedit tempora ratione beatae, hic nemo totam fugiat in quasi delectus fuga doloremque.
-          </p>
+                This project focuses on developing an online food delivery system that enables users 
+                to browse restaurant menus, place food orders, and have meals delivered to their 
+                doorstep. It streamlines the process for both customers and restaurants through a 
+                user-friendly web or mobile interface. Key features include real-time order tracking,
+                 secure payment integration, and customer feedback. The system aims to enhance convenience, 
+                 improve service efficiency, and support local food businesses.</p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="Facebook" />
             <img src={assets.twitter_icon} alt="Twitter" />
