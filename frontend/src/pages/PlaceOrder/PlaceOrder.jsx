@@ -45,7 +45,7 @@ const PlaceOrder = () => {
          const orderData = {
         address: data,
         items: orderItems,
-        amount: Math.round((getTotalCartAmount() + 2) * 100), // Convert to paise
+        amount: Math.round((getTotalCartAmount() + 2) ), // Convert to paise
       };
 
       // Only send Authorization header if token is valid
